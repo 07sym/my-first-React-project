@@ -1,0 +1,25 @@
+.homecategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.homecategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+.homecategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+.homecategory-indexSort p span{
+    font-weight: 600;
+}
+.homecategory-products{
+    margin: 20px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}

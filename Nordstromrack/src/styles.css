@@ -1,0 +1,109 @@
+.nav1 {
+    border: 1px solid black;
+    display: block;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(108, 255, 150);
+    font-family: Rack Sans, Arial, sans-serif;
+  }
+  .logo {
+    width: 180px;
+    height:70px;
+    background: #333; 
+     color: #fff;
+    
+    
+  }
+  .inp {
+    width: 600px;
+    height: 40px;
+  }
+
+
+  .nav2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+  }
+  .signin {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #191a1b;
+    font-family: Rack Sans, Arial, sans-serif;
+    cursor: pointer;
+    padding: 6px 0 2px 10px;
+    text-decoration: none;
+  }
+  .cart {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #333;
+    list-style: none;
+    font-family: Rack Sans, Arial, sans-serif;
+  }
+  .menu li button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    
+  }
+  .menu li button hr{
+    border: none;
+    width: 90%;
+    height: 3px;
+    border-radius: 10px;
+    background: black;
+  }
+  .head {
+    font-weight: 700;
+    font-size: 25px;
+    color: #191a1b;
+    text-align: center;
+    font-family: Rack Sans, Arial, sans-serif;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .btn button {
+    background: #fff none;
+    border-color: #186adc;
+    color: #191a1b;
+    font-size: 1rem;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: Rack Sans, Arial, sans-serif;
+   
+  }
+  .deals {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .slide-container {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Optional: Add a border around the image */
+  }
+  .brands {
+    margin-top: 20px;
+  }
+  

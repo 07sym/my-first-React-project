@@ -1,0 +1,36 @@
+
+.dealsbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dealsbtn button{
+    
+    background: #fff none;
+    border-color: #186adc;
+    color: #191a1b;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 50px;
+}
+
+.popular h1{
+    color: #333;
+    font-size: 2rem ;
+    font-weight: 700;
+    align-items: flex-start;
+}
+
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+     
+}

@@ -1,0 +1,51 @@
+.nav1 {
+    border: 1px solid black;
+    display: block;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(108, 255, 150);
+    font-family: Rack Sans, Arial, sans-serif;
+  }
+  .logo {
+    width: 180px;
+    height:70px;
+    background: #333; 
+     color: #fff;
+    
+    
+  }
+  .inp {
+    width: 600px;
+    height: 40px;
+  }
+
+
+  .nav2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+  }
+  .signin {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #191a1b;
+    font-family: Rack Sans, Arial, sans-serif;
+    cursor: pointer;
+    padding: 6px 0 2px 10px;
+    text-decoration: none;
+  }
+  .cart {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 50px;
+   
+    /* overflow: hidden; */
+  }
+
+  
+  .signin span{
+    font-size: 1.4rem;
+  }
